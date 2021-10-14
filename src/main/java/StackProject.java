@@ -16,7 +16,6 @@ public class StackProject {
         /*if(!s.isEmpty())
         {
             str = s.pop();
-            str = s.pop();
             System.out.println(str);
         }
         
