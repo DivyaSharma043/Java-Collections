@@ -4,6 +4,7 @@ public class TreeProject {
         
         TreeSet<Integer>ts;
         ts = new TreeSet<>();
+        
         ts.add(20);
         ts.add(17);
         ts.add(6);
@@ -19,6 +20,9 @@ public class TreeProject {
         System.out.println(ts.subSet(6,17));
         ts.remove(18);
         System.out.println(ts);
+        ts.add(16);
+        System.out.println(ts);
+        System.out.println("Size of tree: "+ts.size());
         ts.clear();
         System.out.println(ts);
         
